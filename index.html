@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Latihan membuat landing page dengan boostrap dengan metode CTA
+    </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <!--Navigasi Bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <img src="image/logo.png" width="40" height="40" />
+          <h2 class="ms-2 mb-0">Fikri Amrullah</h2>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Header-->
+    <header
+      id="home"
+      class="jumbotron jumbotron-fluid bg-head d-flex align-items-center"
+    >
+      <div class="container-fluid text-center">
+        <h1>Solusi Terbaik Belajar Coding</h1>
+        <p>
+          Kami menyediakan banyak modul yang kamu butuhkan untuk belajar coding
+          dari dasar sampai mahir
+        </p>
+        <a href="#" class="btn btn-primary mt-2">Gabung Sekarang</a>
+        <a href="#" class="btn btn-outline-primary mt-2">Pelajari Dulu</a>
+      </div>
+    </header>
+
+    <!--Service-->
+    <section id="services" class="bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-12 my-4">
+            <h2 class="decoration-line">Mengapa memilih kami?</h2>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-list fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-4">Fasilitas Oke</h3>
+            <p>Fasilitas sangat baik dan sangat oke untuk digunakan</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-laptop-code fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-4">Modul Lenkap</h3>
+            <p>Lebih dari 100 modul untuk dipelajari</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-money-bill fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-4">Biaya Terjangkau</h3>
+            <p>
+              Biaya sangat murah kepada pelajar yang memiliki kekurangan ekonomi
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-chart-line fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-4">Terarah</h3>
+            <p>
+              Pembelajaran sangat terarah daritingkat pemula sampai tingkat
+              mahir
+            </p>
+          </div>
+          <div class="col-12 text-center mt-2 mb-4">
+            <button class="btn btn-primary">Services lainnya</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Product-->
+    <section id="products" class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12 mt-4">
+          <h2 class="decoration-line">Product Kami</h2>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card text-center mt-4">
+            <img
+              src="image/img-html.jpg"
+              class="card-img-top"
+              alt="Buku tentang html"
+            />
+            <div class="card-body">
+              <h5 class="card-title">HTML Uncover</h5>
+              <p class="card-text">Panduan belajar html untuk pemula</p>
+            </div>
+            <div class="card-footer text-body-secondary">
+              <a href="#" class="btn btn-outline-primary btn-sm"
+                >Detail & Harga</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card text-center mt-4">
+            <img
+              src="image/img-css.jpg"
+              class="card-img-top"
+              alt="Buku tentang css"
+            />
+            <div class="card-body">
+              <h5 class="card-title">CSS Uncover</h5>
+              <p class="card-text">Panduan belajar css untuk pemula</p>
+            </div>
+            <div class="card-footer text-body-secondary">
+              <a href="#" class="btn btn-outline-primary btn-sm"
+                >Detail & Harga</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card text-center mt-4">
+            <img
+              src="image/img-javascript.jpg"
+              class="card-img-top"
+              alt="Buku tentang javascript"
+            />
+            <div class="card-body">
+              <h5 class="card-title">JavaScript Uncover</h5>
+              <p class="card-text">Panduan belajar javascript untuk pemula</p>
+            </div>
+            <div class="card-footer text-body-secondary">
+              <a href="#" class="btn btn-outline-primary btn-sm"
+                >Detail & Harga</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card text-center mt-4">
+            <img
+              src="image/img-php.jpg"
+              class="card-img-top"
+              alt="Buku tentang php"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PHP Uncover</h5>
+              <p class="card-text">Panduan belajar php untuk pemula</p>
+            </div>
+            <div class="card-footer text-body-secondary">
+              <a href="#" class="btn btn-outline-primary btn-sm"
+                >Detail & Harga</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center my-4">
+          <button class="btn btn-primary">Product lainnya</button>
+        </div>
+      </div>
+    </section>
+
+    <!--About-->
+    <section id="about" class="bg-body-tertiary">
+      <div class="container-fluid text-center">
+        <h2 class="my-4 decoration-line">Tentang Kami</h2>
+        <div class="row px-3 align-items-center">
+          <div class="col-12 col-sm-6 p-0 order-2 order-sm-1">
+            <h3 class="mt-2">Awal perusahan berdiri</h3>
+            <p>
+              Perusahaan ini berdiri pada tahun 2000, perusahaan tersebut telah
+              menjadi bagian dalam comunitas pembelajar IT
+            </p>
+            <a href="#" class="btn btn-primary mb-3">Lihat Perusahaan</a>
+          </div>
+          <div class="col-12 col-sm-6 p-0 order-1 order-sm-2">
+            <img src="image/about1.jpg" class="w-100" />
+          </div>
+          <div class="col-12 col-sm-6 p-0 order-3">
+            <img src="image/about2.jpg" class="w-100" />
+          </div>
+          <div class="col-12 col-sm-6 p-0 order-3">
+            <h3 class="mt-2">Tim Kami</h3>
+            <p>
+              Tim kami memiliki banyak keahlian, yang bertanggung jawab untuk
+              meningkatkan pembelajar tentang dunia IT
+            </p>
+            <a href="#" class="btn btn-primary mb-3">Lihat Tim</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+      <div class="container-fluid text-center">
+        <h2 class="my-4 decoration-line">Hubungi Kami Sekarang!</h2>
+        <p>Kirim persan untuk bergabung bersama tim kami</p>
+        <a href="#" class="btn btn-primary mb-3">Whatshapp Kami</a>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-dark text-center py-2">
+      <a
+        href="https://www.facebook.com/fikri.amrulloh.56"
+        class="text-light fab fa-facebook text-decoration-none"
+      ></a>
+      <a
+        href="https://www.instagram.com/fikri.amrulloh.15"
+        class="text-light fab fa-instagram text-decoration-none"
+      ></a>
+      <p class="text-light">Copyright &copy; Fikri Amrullah 2024</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/b1b8f766d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
